@@ -1,8 +1,8 @@
-# 📦 SDesk ElasticSearch Endpoint
+# 📦 ElasticSearch Endpoint
 
 Este repositório armazena a definição e estrutura de um endpoint do Elasticsearch utilizado para indexação e busca de chamados no ServiceDesk.
 
-## ⚙️ Particularidades
+## ⚙️ 
 
 - O ambiente é recriado via Jenkins pela tarefa `elasticsearch-deploy-[ambiente]`, utilizando a tag específica do commit no Git.
 - O arquivo `mapping.json` define a estrutura do índice (mapeamento, filtros e analisadores). Para aplicar mudanças, o índice precisa ser excluído previamente — caso contrário, o deploy não atualiza o mapping.
