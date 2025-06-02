@@ -10,3 +10,7 @@ Este repositório armazena a definição e estrutura de um endpoint do Elasticse
 - A indexação pode ser ativada ou desativada pelo parâmetro `ELASTICSEARCH_INDEXACAO_HABILITADA`.
 - A versão do ElasticSearch utilizada é gerenciada pelo `Dockerfile` presente no repositório.
 - Os dados do Elasticsearch são armazenados em volume separado. Alterações simples no ambiente preservam o índice, evitando a necessidade de reindexação.
+
+## 👁️ 
+
+- Ajustar espaço de armazenamento disponível para o índice;
