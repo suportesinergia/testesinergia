@@ -13,4 +13,4 @@ Este repositório armazena a definição e estrutura de um endpoint do Elasticse
 
 ## 👁️ 
 
-- Ajustar espaço de armazenamento disponível para o índice;
+- Verificar espaço de armazenamento disponível para o índice;
